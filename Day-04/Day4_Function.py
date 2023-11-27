@@ -43,7 +43,7 @@ def addition(num1, num2):
     add = num1 + num2
     return add
 
-def substration(num1, num2):
+def subtraction(num1, num2):
     sub = num1 - num2
     return sub
 
@@ -56,6 +56,6 @@ def division(num1, num2):
     return div
 
 print("sum of values is: ", str(addition(5, 10)))
-print(substration(5, 10))
+print(subtraction(5, 10))
 print(multiplication(5, 10))
-print(division(5, 10))
+print(division(5, 10)) 
